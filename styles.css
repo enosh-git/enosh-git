@@ -18,7 +18,7 @@ header {
 
 nav {
     align-items: center;
-    height: 22px;
+    height: 54px;
     padding-right: 210px;
 }
 
@@ -26,8 +26,6 @@ nav ul {
     display: flex;
     list-style-type: none;
     gap: 46px;
-    margin: 0px;
-    padding: 0px;
 }
 
 a {
@@ -109,16 +107,76 @@ nav ul li a.active {
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 2px 15px 0 rgba(0, 0, 0, 0.2)
 }
 
-@media (max-width: 1000px) {
-    .container {
+@media (max-width: 450px) {
+#logo { 
+    height: 40px;
+    width: 40px;
+    padding-left: 26px;
+}
+
+nav {
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 29px;
+    height: 56px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 46px;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.titlepage {
+    margin-top: 40px;
+    margin-bottom: 33px;
+}
+
+.styled-line {
+    border: none;
+    height: 1px;
+    background: rgba(211, 211, 211, 0.8);
+    width: 94%;
+    position: relative;
+    margin-right: 23px;
+}
+
+.layoutpage {
+        margin-left: 23px;
+        margin-right: 1px;
+}
+
+.container {
         flex-direction: column;
         align-items: center;
-    }
-    .layoutbody {
+        margin-top: -13px;
+}
+
+.layoutbody {
         width: 100%;
-    }
-    .aboutmepic {
+}
+
+.aboutmepic {
         max-width: 90vw;
         height: auto;
-    }
+        margin-left: 13px;
+}
+
+.aboutinfo {
+    margin-right: 23px;
+    font-size: 19px;
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    word-spacing: -0.4px;
+}
+
 }

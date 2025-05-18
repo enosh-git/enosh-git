@@ -97,3 +97,57 @@ nav ul li a.active {
     text-align: center;
     margin: 0 auto;
 }
+
+@media (max-width: 450px) {
+    #logo { 
+    height: 40px;
+    width: 40px;
+    padding-left: 26px;
+}
+
+nav {
+    align-items: center;
+    height: 23px;
+    padding-left: 100px;
+    padding-right: 29px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 46px;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.titlepage {
+    margin-top: 40px;
+    margin-bottom: 33px;
+}
+
+.layoutpage {
+        margin-left: 23px;
+        margin-right: 1px;
+}
+
+.container {
+        margin-top: 230px;
+        flex-direction: column;
+        align-items: center;
+}
+
+.up {
+    font-weight: 100;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    margin-right: 52px;
+}
+
+}
