@@ -108,7 +108,7 @@ nav ul li a.active {
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 2px 15px 0 rgba(0, 0, 0, 0.2)
 }
 
-@media (max-width: 450px) {
+@media (max-width: 430px) {
 html, body {
     overflow-x: hidden;
     width: 100vw;
@@ -116,16 +116,20 @@ html, body {
 }
 
 #logo { 
-    height: 40px;
-    width: 40px;
-    padding-left: 26px;
+    height: 30px;
+    width: 30px;
+    padding-left: 15px;
+}
+
+header {
+    margin-top: 15px;
 }
 
 nav {
     align-items: center;
-    padding-left: 80px;
+    padding-left: 50px;
     padding-right: 50px;
-    height: 56px;
+    height: 58px;
 }
 
 nav ul {
@@ -135,7 +139,7 @@ nav ul {
 }
 
 a {
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     color: gray;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -147,6 +151,17 @@ a {
     margin-bottom: 33px;
 }
 
+#titlepagename {
+    font-size: 14vw;
+    margin: 0px;
+}
+
+.aboutme {
+    margin: 0px;
+    font-size: 27px;
+    padding-left: 1px;
+}
+
 .styled-line {
     border: none;
     height: 1px;
@@ -156,9 +171,18 @@ a {
     margin-right: 23px;
 }
 
+.styled-line::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+}
+
 .layoutpage {
-        margin-left: 23px;
-        margin-right: 23px;
+        margin-left: 20px;
+        margin-right: 11px;
 }
 
 .container {
@@ -172,14 +196,13 @@ a {
 }
 
 .aboutmepic {
-        max-width: 90vw;
+        max-width: 85vw;
         height: auto;
-        margin-left: 0px;
 }
 
 .aboutinfo {
     margin-right: 10px;
-    font-size: 19px;
+    font-size: 16px;
     text-align: justify;
     line-height: 30px;
     letter-spacing: 0.5px;
