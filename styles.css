@@ -123,8 +123,8 @@ html, body {
 
 nav {
     align-items: center;
-    padding-left: 100px;
-    padding-right: 29px;
+    padding-left: 80px;
+    padding-right: 50px;
     height: 56px;
 }
 
@@ -158,7 +158,7 @@ a {
 
 .layoutpage {
         margin-left: 23px;
-        margin-right: 1px;
+        margin-right: 23px;
 }
 
 .container {
@@ -174,11 +174,11 @@ a {
 .aboutmepic {
         max-width: 90vw;
         height: auto;
-        margin-left: 13px;
+        margin-left: 0px;
 }
 
 .aboutinfo {
-    margin-right: 23px;
+    margin-right: 10px;
     font-size: 19px;
     text-align: justify;
     line-height: 30px;

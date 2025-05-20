@@ -75,7 +75,7 @@ nav ul li a.active {
 .styled-line::before {
     content: "";
     position: absolute;
-    width: 335px;
+    width: 135px;
     height: 1px;
     background: rgba(0, 0, 0, 0.5);
     left: 0;
@@ -115,7 +115,7 @@ nav {
     align-items: center;
     height: 23px;
     padding-left: 100px;
-    padding-right: 29px;
+    padding-right: 50px;
 }
 
 nav ul {
@@ -139,7 +139,16 @@ a {
 
 .layoutpage {
         margin-left: 23px;
-        margin-right: 1px;
+        margin-right: 15px;
+}
+
+.styled-line {
+    border: none;
+    height: 1px;
+    background: rgba(211, 211, 211, 0.8);
+    width: 94%;
+    position: relative;
+    margin-right: 23px;
 }
 
 .container {
